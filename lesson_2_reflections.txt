@@ -21,3 +21,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 	unsure at any time, you can check 'git diff --staged' to see if there's something
 	staged that doesn't correspond to that logical change and remove it from the 
 	staging area with 'git reset' before committing.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches allow individuals or especially teams to work on multiple different features
+	at the same time, possibly even conflicting designs, without impacting the main line.
+	The main line can then be reserved for bug fixes rather than functionality additions,
+	and branched features can be merged back in when they are fully functional.
