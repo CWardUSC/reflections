@@ -13,3 +13,11 @@ How is the staging area different from the working directory and the repository?
 	immediately. Looking simply at changed files may not tell you what you want
 	to add, since there may be some changed files that aren't ready to be committed
 	yet or aren't part of the logical change you're currently implementing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By only adding the files that comprise parts of the logical change you can insure
+	that when you commit you've only committed the single logical change. If you're
+	unsure at any time, you can check 'git diff --staged' to see if there's something
+	staged that doesn't correspond to that logical change and remove it from the 
+	staging area with 'git reset' before committing.
