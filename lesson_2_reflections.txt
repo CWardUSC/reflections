@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates a new repository directory, .git, in the directory you created
+	the repository in. This enables you to start committing and working with
+	the repository by providing the framework repository structure, config,
+	etc.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It enables you to prepare files that you've worked on and want to include 
+	as part of a commit without actually committing them immediately. You're
+	less likely to forget to include them in the commit if you can stage them
+	immediately. Looking simply at changed files may not tell you what you want
+	to add, since there may be some changed files that aren't ready to be committed
+	yet or aren't part of the logical change you're currently implementing.
