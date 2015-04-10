@@ -41,3 +41,12 @@ What is the result of merging two branches together? Why do we represent it in t
     the other branch, onto the currently checked out branch. We represent it as two commits coming together
     because each of the branches have separate commit histories, so while git log tries to represent
     them linearly they don't follow that sort of progression.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    The automatic merging in Git enables you to quickly combine code that doesn't have any conflicts
+    into a contiguous codebase. If a conflict arises, it allows you to manually resolve it, giving
+    you some fine grained control over what ends up in the merged branch. If you did the merges 
+    fully manually it would take more time, but you might be less likely to introduce bugs that
+    are the result of changes that don't raise a merge conflict but still don't work properly
+    together due to integration components.
