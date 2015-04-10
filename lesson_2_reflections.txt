@@ -34,3 +34,10 @@ How do the diagrams help you visualize the branch structure?
 	The diagrams show the relationships between each individual commit in the commit chain,
 	child to parent, as well as displaying when branches were forked from the master branch
 	so that you can see what features of the current master they won't be working with.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The changes made in both branch are combined, minus any conflicts that were resolved in favor of 
+    the other branch, onto the currently checked out branch. We represent it as two commits coming together
+    because each of the branches have separate commit histories, so while git log tries to represent
+    them linearly they don't follow that sort of progression.
