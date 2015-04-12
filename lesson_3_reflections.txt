@@ -25,3 +25,12 @@ What is the benefit of having a copy of the last known state of the remote store
     It enables you to compare your changes to those on the remote repository even while you're offline.
     Also, when you are actually merging, having the remote mirrored locally makes the process of 
     comparing and editing the files simpler because you aren't transferring data over the internet.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    It depends on the situation. You could collaborate in person and work on the same piece of code 
+    with one person typing if you were working on the same feature. floobits allows editing the same
+    file with another user, or google drive in the case of non-code. Those options don't require the
+    knowledge of commands and repositories using Git/Github does, but they also don't scale well to
+    large groups with disparate tasks, and they don't have the benefit of providing a history and
+    easy ways to revert or merge changes developed separately.
