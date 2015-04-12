@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+    All of the time. There are obvious benefits for working with a team or getting code
+    review or advice from others, but even for individual projects it serves as a form
+    of backup and enables you to pull it on any computer you're working on.
